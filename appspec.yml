@@ -4,6 +4,6 @@ files:
    - source: /
      destination: /opt/t1
 hooks:
-   Install:
+   AfterInstall:
     - location: startmicroservice.sh
       runas: root
