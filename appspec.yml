@@ -6,4 +6,5 @@ files:
 hooks:
    BeforeInstall:
     - location: startmicroservice.sh
+      timeout: 300
       runas: root
